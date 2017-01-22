@@ -51,9 +51,9 @@ d3.json('static/data/passengers_small.json', function(data) {
 ;
 
 
-    var hitslineChart  = dc.barChart("#chart-01");
+    var chart_01  = dc.barChart("#chart-01");
 
-    hitslineChart
+    chart_01
         .width(600)
         .height(400)
         .dimension(dim_age.filter(function (d) {  return !!d }))
