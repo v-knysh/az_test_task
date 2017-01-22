@@ -10,6 +10,13 @@ https://docs.djangoproject.com/en/1.10/howto/deployment/wsgi/
 import os
 
 from django.core.wsgi import get_wsgi_application
+import django
+
+print(django)
+print(django.core)
+print(django.core.wsgi)
+print(django.core.wsgi.get_wsgi_application)
+
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "az_test_task.settings")
 
